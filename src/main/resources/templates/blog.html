@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+
+</head>
+<body>
+    <h1>Blog Posts</h1>
+    <ul>
+        <li th:each="post : ${posts}" th:text="${post}"></li>
+    </ul>
+</body>
+</html>

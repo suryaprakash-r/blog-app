@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    padding: 20px;
+    color: #222;
+}
+
+/* Blog Page */
+.blog-container {
+    width: 60%;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.blog-container li {
+    padding: 10px;
+    margin: 10px 0;
+    background: #e3e3e3;
+    border-radius: 5px;
+}
+
+/* Contact Page */
+.contact-container {
+    width: 50%;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-container input,
+.contact-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-container button {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-container button:hover {
+    background: #0056b3;
+}
+
+/* Success Message */
+.success-message {
+    color: green;
+    text-align: center;
+    margin-top: 10px;
+}
