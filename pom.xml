@@ -29,7 +29,7 @@
 		<url />
 	</scm>
 	<properties>
-		<java.version>21</java.version>
+		<java.version>17</java.version>
 		<sonar.host.url>http://43.205.201.88:9000/</sonar.host.url>
 		<sonar.login>sqa_aba807470cef7759ddb923b091debe516b293f40</sonar.login>
 	</properties>
@@ -196,6 +196,8 @@
 				<version>3.0.0-M7</version>
 				<configuration>
 					<systemPropertyVariables>
+											<source>${java.version}</source>
+					<target>${java.version}</target>
 						<cucumber.plugin>json:target/cucumber-reports/cucumber.json</cucumber.plugin>
 					</systemPropertyVariables>
 				</configuration>
