@@ -4,7 +4,7 @@
 
 ---
  
-## 📌 **Project Overview**  
+## 📌 **Project Overview** 
 This project demonstrates a **DevOps workflow** for automating the deployment of a Spring Boot application using:  
 ✅ **Jenkins** – CI/CD automation  
 ✅ **Maven** – Build management  
