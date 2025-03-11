@@ -1,6 +1,6 @@
 ### **Spring Boot Web Application – Automated CI/CD Pipeline**  
 
-🚀 This repository contains a **Spring Boot (Maven) web application** with a fully automated **CI/CD pipeline** using **Jenkins, Docker, SonarQube, and Trivy**. The deployment is done on an **AWS EC2 instance** running Docker.  
+🚀 This repository contains a **Spring Boot (Maven) web application** with a fully automated **CI/CD pipeline** using **Jenkins, Docker, SonarQube, and Trivy**. The deployment is done on an **AWS EC2 instance** running Docker.   
 
 ---
  
