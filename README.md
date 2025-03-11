@@ -3,7 +3,7 @@
 🚀 This repository contains a **Spring Boot (Maven) web application** with a fully automated **CI/CD pipeline** using **Jenkins, Docker, SonarQube, and Trivy**. The deployment is done on an **AWS EC2 instance** running Docker.  
 
 ---
-
+ 
 ## 📌 **Project Overview**  
 This project demonstrates a **DevOps workflow** for automating the deployment of a Spring Boot application using:  
 ✅ **Jenkins** – CI/CD automation  
